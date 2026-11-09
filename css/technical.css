@@ -1,0 +1,81 @@
+/*======================================
+Skills
+======================================*/
+
+.skills{
+
+    padding:0px 0;
+
+}
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+    margin-top:70px;
+
+}
+
+.skill-card{
+
+    background:#fff;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:22px;
+
+    padding:35px;
+
+    transition:.3s;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+}
+
+.skill-card h3{
+
+    margin-bottom:20px;
+
+    color:var(--primary);
+
+}
+
+.skill-card ul{
+
+    list-style:none;
+
+}
+
+.skill-card li{
+
+    margin-bottom:15px;
+
+    color:#64748B;
+
+    position:relative;
+
+    padding-left:20px;
+
+}
+
+.skill-card li::before{
+
+    content:"▹";
+
+    position:absolute;
+
+    left:0;
+
+    color:var(--primary);
+
+}

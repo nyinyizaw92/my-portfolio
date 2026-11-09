@@ -1,0 +1,113 @@
+/*======================================
+Developer
+======================================*/
+
+.developer{
+
+    padding:100px 0;
+
+    background:#F8FAFC;
+
+}
+
+.developer-card{
+
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:45px;
+
+    margin-top:70px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.06);
+
+}
+
+.developer-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:40px;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+.developer-year{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:#DBEAFE;
+
+    color:var(--primary);
+
+    border-radius:30px;
+
+    margin-bottom:15px;
+
+    font-weight:600;
+
+}
+
+.developer-company{
+
+    font-weight:600;
+
+    color:#64748B;
+
+}
+
+.developer-content{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:50px;
+
+}
+
+.developer-content h4{
+
+    margin-bottom:20px;
+
+}
+
+.developer-content ul{
+
+    list-style:none;
+
+}
+
+.developer-content li{
+
+    margin-bottom:12px;
+
+    padding-left:20px;
+
+    position:relative;
+
+    color:#64748B;
+
+}
+
+.developer-content li::before{
+
+    content:"•";
+
+    color:var(--primary);
+
+    position:absolute;
+
+    left:0;
+
+}

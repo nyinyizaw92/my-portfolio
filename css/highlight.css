@@ -1,0 +1,118 @@
+/*======================================
+Highlights
+======================================*/
+
+.highlights{
+
+    padding:100px 0;
+
+    background:#F8FAFC;
+
+}
+
+.section-heading{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:0 auto 70px;
+
+}
+
+.section-heading span{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+.section-heading h2{
+
+    margin:15px 0;
+
+    font-size:2.5rem;
+
+}
+
+.section-heading p{
+
+    color:#64748B;
+
+    line-height:1.8;
+
+}
+
+.highlight-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.highlight-card{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:35px 30px;
+
+    transition:.3s;
+
+    border:1px solid #E5E7EB;
+
+}
+
+.highlight-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+
+}
+
+.highlight-card .icon{
+
+    width:70px;
+
+    height:70px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    border-radius:18px;
+
+    background:#DBEAFE;
+
+    margin-bottom:25px;
+
+}
+
+.highlight-card h3{
+
+    margin-bottom:15px;
+
+}
+
+
+.highlight-card p{
+
+    color:#64748B;
+
+    line-height:1.8;
+
+}

@@ -1,0 +1,51 @@
+/*======================================
+Teaching Toolkit
+======================================*/
+
+.toolkit{
+
+padding:0px 0;
+
+background:#F8FAFC;
+
+}
+
+#toolkit-container{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:18px;
+
+justify-content:center;
+
+margin-top:60px;
+
+}
+
+.tool-chip{
+
+padding:15px 28px;
+
+background:white;
+
+border-radius:50px;
+
+border:1px solid #E5E7EB;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.tool-chip:hover{
+
+background:var(--primary);
+
+color:white;
+
+transform:translateY(-5px);
+
+}

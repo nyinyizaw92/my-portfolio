@@ -1,0 +1,347 @@
+@media(max-width:900px){
+
+    .nav-links{
+
+        position:fixed;
+
+        top:80px;
+
+        right:-100%;
+
+        width:280px;
+
+        height:calc(100vh - 80px);
+
+        background:white;
+
+        flex-direction:column;
+
+        justify-content:flex-start;
+
+        align-items:flex-start;
+
+        padding:40px;
+
+        transition:.4s;
+
+        box-shadow:-10px 0 30px rgba(0,0,0,.08);
+
+    }
+
+    .nav-links.show{
+
+        right:0;
+
+    }
+
+    .menu-btn{
+
+        display:block;
+
+    }
+
+}
+
+/* for the main-info-section under <main></main> elements */
+/*======================================
+Hero Responsive
+======================================*/
+
+@media (max-width:991px){
+
+.main-info{
+
+    padding:120px 0 80px;
+
+    min-height:auto;
+
+}
+
+.main-info-wrapper{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+    gap:50px;
+
+}
+
+.main-info-content{
+
+    width:100%;
+
+}
+
+.main-info-image{
+
+    width:100%;
+
+}
+
+.main-info-image img{
+
+    max-width:300px;
+
+}
+
+.main-info h1{
+
+    font-size:2.8rem;
+
+}
+
+.main-info h2{
+
+    font-size:1.8rem;
+
+}
+
+.main-info p{
+
+    margin:auto auto 35px;
+
+}
+
+.main-info-buttons{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+.main-info-stats{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+}
+
+.stat-item{
+
+    width:100%;
+
+    max-width:220px;
+
+}
+
+}
+@keyframes fadeLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+@keyframes fadeRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+/* for highlight */
+    @media(max-width:991px){
+
+    .highlight-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    }
+
+    @media(max-width:600px){
+
+    .highlight-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .section-heading h2{
+
+        font-size:2rem;
+
+    }
+
+    
+
+}
+
+/* about me section */
+@media(max-width:991px){
+
+    .about-wrapper{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .about-list{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .about-image img{
+
+        max-width:300px;
+
+        margin:auto;
+
+    }
+
+}
+
+/* teaching journey */
+@media(max-width:768px){
+
+    .timeline::before{
+
+        left:18px;
+
+    }
+
+    .timeline-item{
+
+        flex-direction:column;
+
+        padding-left:45px;
+
+    }
+
+    .timeline-year{
+
+        min-width:auto;
+
+    }
+
+    .timeline-year::after{
+
+        left:-35px;
+
+        right:auto;
+
+    }
+
+}
+
+/* Developer Section */
+@media(max-width:768px){
+
+    .developer-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .developer-content{
+
+        grid-template-columns:1fr;
+
+        gap:30px;
+
+    }
+
+    .developer-card{
+
+        padding:30px 20px;
+
+    }
+
+}
+
+/* Features Impact Section */
+@media(max-width:991px){
+
+    .impact-item{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+}
+
+/* resources section */
+@media (max-width: 768px) {
+
+    .resource-feature {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .resource-content {
+        max-width: 100%;
+    }
+
+    .resource-content h3 {
+        font-size: 1.8rem;
+    }
+
+}
+
+/* contact section */
+@media(max-width:425px){
+    .contact-icon{
+        width:50px;
+        height:50px;
+    }
+}
+
+/* footer section */
+@media(max-width:991px){
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+    .footer-bottom{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+}

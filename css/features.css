@@ -1,0 +1,133 @@
+/*======================================
+Featured Impact
+======================================*/
+
+.impact{
+
+    padding:100px 0;
+
+}
+
+.impact-item{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+    margin-top:70px;
+
+}
+
+.impact-image img{
+
+    width:100%;
+
+    border-radius:24px;
+
+    display:block;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+
+}
+
+.impact-tag{
+
+    display:inline-block;
+
+    background:#DBEAFE;
+
+    color:var(--primary);
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.impact-content h3{
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+
+}
+
+.impact-content p{
+
+    color:#64748B;
+
+    line-height:1.9;
+
+    margin-bottom:25px;
+
+}
+
+.impact-content ul{
+
+    list-style:none;
+
+    margin-bottom:30px;
+
+}
+
+.impact-content li{
+
+    margin-bottom:12px;
+
+    color:#64748B;
+
+    padding-left:20px;
+
+    position:relative;
+
+}
+
+.impact-content li::before{
+
+    content:"✓";
+
+    position:absolute;
+
+    left:0;
+
+    color:var(--primary);
+
+}
+
+.accordion-btn{
+
+    width:100%;
+
+    padding:16px;
+
+    cursor:pointer;
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:12px;
+
+    margin-top:25px;
+
+}
+
+.accordion-content{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+}

@@ -1,0 +1,65 @@
+/*======================================
+Resources & Publications
+======================================*/
+
+.resources {
+    /* padding: 100px 0; */
+    background: #F8FAFC;
+}
+
+.resource-feature {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 70px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.resource-image img {
+    width: 100%;
+    max-width: 380px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 45px rgba(0,0,0,.10);
+}
+
+.resource-content {
+    max-width: 600px;
+}
+
+.resource-tag {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #DBEAFE;
+    color: var(--primary);
+    border-radius: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resource-content h3 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.resource-content p {
+    color: #64748B;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+
+.resource-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.resource-meta span {
+    padding: 8px 14px;
+    background: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    font-size: .9rem;
+}

@@ -1,0 +1,131 @@
+/*======================================
+Footer
+======================================*/
+
+.footer{
+
+    background:#0F172A;
+
+    color:#E2E8F0;
+
+    padding:80px 0 30px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1.5fr;
+
+    gap:60px;
+
+}
+
+.footer-about h2{
+
+    color:white;
+
+    margin-bottom:15px;
+
+}
+
+.footer-role{
+
+    color:#60A5FA;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.footer-about p{
+
+    line-height:1.9;
+
+}
+
+.footer-links h3,
+.footer-contact h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.footer-links ul{
+
+    list-style:none;
+
+}
+
+.footer-links li{
+
+    margin-bottom:12px;
+
+}
+
+.footer-links a{
+
+    color:#CBD5E1;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:white;
+
+}
+
+.footer-contact p{
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+}
+
+.footer-bottom{
+
+    margin-top:70px;
+
+    padding-top:30px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+.back-top{
+
+    color:#60A5FA;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.back-top:hover{
+
+    color:white;
+
+}
+
